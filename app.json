@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Blot Browser",
+    "slug": "blot-browser",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.tejasmuttineni.blotbrowser",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "553f5a8c-2c6f-4ad0-8fc6-1be488d5f7ea"
+      }
+    }
+  }
+}
