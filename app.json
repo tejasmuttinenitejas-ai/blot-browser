@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Blot Browser",
+    "slug": "blot-browser",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0d0e12"
+    },
+    "android": {
+      "package": "com.blot.browser",
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
+      "adaptiveIcon": {
+        "backgroundColor": "#0d0e12"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
