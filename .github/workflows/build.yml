@@ -17,8 +17,10 @@ jobs:
       - name: Install EAS CLI
         run: npm install -g eas-cli@latest
 
-      - name: Check EAS version
-        run: eas --version
+      - name: Create Expo project
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: eas project:init --non-interactive --force
 
       - name: Build APK
         env:
